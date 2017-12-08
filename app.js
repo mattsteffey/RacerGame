@@ -1,18 +1,12 @@
-$("#player1").keyup(function(a) {
-    if (a.keyCode === 97) {}
-    	$("#player1").animate({left: '10px'});
+$(window).keypress(function(a) {
+    if(a.which == 97)
+    console.log("player1");
+ $("#player1").animate({width: "+=100px"});
+});
 
 
-
-
-
-
-//$("player2").keyup(function(){
-     
-//     $("#player2").animate({left: '10px'});
-// });
-
-
-// $("button").click(function(){
-//     $("#red").animate({left: '250px'});
-// });
+$(window).keypress(function(l) {
+    if(l.which == 108)
+    console.log("player2");
+ $("#player2").animate({width: "+=100px"});
+});
