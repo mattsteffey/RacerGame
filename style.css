@@ -1,17 +1,18 @@
 .player {
-	height: 100px;
-	width: 100px;
+	height: 60px;
+	width: 150px;
 }
 
 #player1 {
 	background-color: red;
 	margin-left: 0px;
-	
+	background-image: url("boat1.jpg");
 }
 
 #player2 {
 	background-color: blue;
 	margin-left: 0px;
 	margin-top: 20px;
+	background-image: url("boat2.gif");
 	
 }
