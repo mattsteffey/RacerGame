@@ -5,7 +5,7 @@ var p2 = 0;
 //P1 FUNCTIONALITY
 $(document).keypress(function(a) {
     if(a.keyCode == 97)
-	$("#player1").animate({marginLeft: "+=50px"}, -200);
+	$("#player1").animate({marginLeft: "+=5%"}, -200);
 	
 });
 
@@ -19,7 +19,7 @@ $(document).keypress(function(a) {
 //P2 FUNCTIONALITY
 $(document).keypress(function(l) {
     if(l.keyCode == 108)
-	 $("#player2").animate({marginLeft: "+=50px"}, -200);
+	 $("#player2").animate({marginLeft: "+=5%"}, -200);
 	
 });
 
