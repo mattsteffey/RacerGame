@@ -1,13 +1,16 @@
 
 h1 {
-	font-color: purple;
-	text-align: center
+	color: purple;
+	text-align: center;
+	margin-bottom: -2%;
 }
 
 h2 {
-	font-color: green;
+	color: green;
 	text-align: center;
 }
+
+
 
 .player {
 	height: 60px;
